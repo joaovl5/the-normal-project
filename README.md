@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-unlicense-blue.svg)
 ![Discord](https://img.shields.io/badge/discord-integrated-7289DA)
 ![Minecraft](https://img.shields.io/badge/minecraft-1.19.2-brightgreen)
 
