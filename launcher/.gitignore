@@ -1,0 +1,15 @@
+node_modules
+minecraft
+.venv
+.venv/bin
+__pycache__
+*.spec
+dist
+dist_start
+dist_test
+build
+web
+out/
+web/**
+release
+data

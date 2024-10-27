@@ -1,0 +1,56 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: "Minecraft";
+  src: url("assets/Minecraft.eot");
+  src: url("assets/Minecraft.eot?#iefix") format("embedded-opentype"),
+    url("assets/Minecraft.woff2") format("woff2"),
+    url("assets/Minecraft.woff") format("woff"),
+    url("assets/Minecraft.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mine";
+  src: url("assets/mine.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Retropix";
+  src: url("assets/retropix.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  width: 642px;
+  height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  background: #202020;
+}
+
+body {
+  font-family: "Retropix";
+  color: white;
+  transform-origin: top left;
+  transform: scale(1.5);
+  // zoom: 1.5;
+}
+
+::selection {
+  background: transparent;
+  color: inherit; /* Optional: keeps the text color the same as unselected text */
+}
+
+::-moz-selection {
+  background: transparent;
+  color: inherit; /* For Firefox */
+}

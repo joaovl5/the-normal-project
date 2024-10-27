@@ -1,0 +1,12 @@
+name: pluginteste
+version: '${project.version}'
+main: me.lavember.pluginteste.NormalAuth
+api-version: '1.18'
+commands:
+  login:
+    description: Login
+    usage: /login <token>
+dependencies:
+  server:
+    MCKotlin-Paper:
+      required: true

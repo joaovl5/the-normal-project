@@ -1,0 +1,11 @@
+services:
+  mongo:
+    image: mongo:4.2.0
+    network_mode: bridge
+    volumes:
+      - hub_data:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  hub_data:

@@ -1,0 +1,40 @@
+{
+  "main": "electron/main.js",
+  "name": "launchernormal",
+  "description": "launcher do bom",
+  "license": "GPL-3.0-only",
+  "maintainers": [
+    "lav"
+  ],
+  "author": "lav <lav@lav.com> (https://lav.com)",
+  "version": "1.0.0",
+  "build": {
+    "compression": "maximum",
+    "appId": "normal.launcher",
+    "win": {
+      "target": "zip"
+    },
+    "files": [
+      "!*.*",
+      "!vue/**",
+      "!web/**",
+      "!minecraft/**",
+      "!dist/**",
+      "!.venv/**",
+      "!__pycache__/**",
+      "electron/**"
+    ]
+  },
+  "scripts": {
+    "build": "electron-builder --dir --x64",
+    "build:w": "electron-builder --dir -w --x64"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.1.2",
+    "@electron/fuses": "^1.8.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.13.3",
+    "electron": "^31.1.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "launcher"
+    },
+    {
+      "path": "hub"
+    },
+    {
+      "path": "installer"
+    }
+  ],
+  "settings": {},
+  "launch": {
+    "version": "0.2.0",
+    "configurations": []
+  }
+}

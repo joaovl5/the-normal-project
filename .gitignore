@@ -1,0 +1,4 @@
+**/.gradle
+**/.idea
+minecraft/mod/build
+minecraft/plugin/target
